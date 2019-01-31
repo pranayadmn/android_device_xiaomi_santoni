@@ -32,6 +32,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # Inherit 64bit support
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
+# Crypto
+PRODUCT_PACKAGES += \
+    libcryptfs_hw
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := santoni
 PRODUCT_NAME := omni_santoni
