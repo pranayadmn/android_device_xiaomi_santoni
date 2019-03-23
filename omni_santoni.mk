@@ -36,6 +36,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 PRODUCT_PACKAGES += \
     libcryptfs_hw
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.hardware.keystore=msm8937
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := santoni
 PRODUCT_NAME := omni_santoni
