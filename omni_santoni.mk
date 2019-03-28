@@ -51,3 +51,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
    PRIVATE_BUILD_DESC="santoni-user 7.1.2 N2G47H V9.5.10.0.NAMMIFD release-keys"
 
 BUILD_FINGERPRINT := Xiaomi/santoni/santoni:7.1.2/N2G47H/V9.5.10.0.NAMMIFD:user/release-keys
+
+# AVB
+PRODUCT_SUPPORTS_BOOT_SIGNER := true
+PRODUCT_VERITY_SIGNING_KEY := build/target/product/security/verity
