@@ -89,6 +89,7 @@ TARGET_RECOVERY_QCOM_RTC_FIX := true
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_EXCLUDE_TWRPAPP := true
 TW_EXTRA_LANGUAGES := true
+TW_HAS_EDL_MODE := true
 TW_IGNORE_MISC_WIPE_DATA := true
 TW_INCLUDE_NTFS_3G := true
 TW_INCLUDE_RESETPROP := true
